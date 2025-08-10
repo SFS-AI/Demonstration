@@ -23,7 +23,12 @@ A demo repo of complete code
       </td>
     </tr>
     <tr>
-      <!-- LEFT column 2 (GIF) -->
+      <!-- LEFT column 2 (image) -->
+     <td valign="top" align="center">
+        <img src="LidarRawData.png" alt="Image 3" width="100%">
+        <div><sub>Image 3 caption (optional)</sub></div>
+      </td>  
+         <!-- RIGHT column 2 (Image) --> 
       <td valign="top" align="center">
         <img src="LidarPipeline.gif" alt="GIF 1" width="100%">
         <div><sub>GIF 1 caption (optional)</sub></div>
@@ -31,24 +36,18 @@ A demo repo of complete code
       <td align="center" valign="middle">
         <h2>&rarr;</h2>
       </td>
-      <!-- RIGHT column 2 (Image) -->
-      <td valign="top" align="center">
-        <img src="LidarRawData.png" alt="Image 3" width="100%">
-        <div><sub>Image 3 caption (optional)</sub></div>
-      </td>
     </tr>
     <tr>
       <!-- LEFT column 3 (GIF) -->
+      <td valign="top" align="center"></td>
+        <!-- Empty to keep total at 5 items -->
+      <!-- RIGHT column 3 (empty) -->
       <td valign="top" align="center">
         <img src="EdgesPipeline.gif" alt="GIF 2" width="100%">
         <div><sub>GIF 2 caption (optional)</sub></div>
       </td>
       <td align="center" valign="middle">
         <h2>&uarr;</h2>
-      </td>
-      <!-- RIGHT column 3 (empty) -->
-      <td valign="top" align="center">
-        <!-- Empty to keep total at 5 items -->
       </td>
     </tr>
   </table>
