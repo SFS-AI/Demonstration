@@ -2,62 +2,62 @@
 A demo repo of complete code
 
 
-<!-- Media block: two columns with optional arrows between them -->
-<div align="center" style="max-width:1400px;margin:0 auto;">
+<!-- Two columns with an arrows column between them.
+     Uses only HTML attributes GitHub allows (no inline CSS). -->
 
-  <table style="width:100%;table-layout:fixed;">
+<div align="center">
+  <table width="960" cellpadding="6" cellspacing="0">
     <tr>
-      <!-- LEFT column item 1 -->
-      <td style="width:45%;vertical-align:top;">
-        <img src="ImgRaw.png" alt="Image 1" style="width:100%;height:auto;border-radius:6px;">
-        <sub>Image 1 caption (optional)</sub>
+      <!-- LEFT column 1 (Image) -->
+      <td width="430" valign="top" align="center">
+        <img src="ImgRaw.png" alt="Image 1" width="100%">
+        <div><sub>Image 1 caption (optional)</sub></div>
       </td>
 
-      <!-- MIDDLE arrows -->
-      <td style="width:10%;text-align:center;vertical-align:middle;">
-        <div style="font-size:32px;line-height:1;">&rarr;</div>
+      <!-- ARROW -->
+      <td width="100" align="center" valign="middle">
+        <h2>&rarr;</h2>
       </td>
 
-      <!-- RIGHT column item 1 -->
-      <td style="width:45%;vertical-align:top;">
-        <img src="ImgBoxes.jpg" alt="Image 2" style="width:100%;height:auto;border-radius:6px;">
-        <sub>Image 2 caption (optional)</sub>
+      <!-- RIGHT column 1 (Image) -->
+      <td width="430" valign="top" align="center">
+        <img src="ImgBoxes.jpg" alt="Image 2" width="100%">
+        <div><sub>Image 2 caption (optional)</sub></div>
       </td>
     </tr>
 
     <tr>
-      <!-- LEFT column item 2 (GIF) -->
-      <td style="vertical-align:top;">
-        <img src="LidarPipeline.gif" alt="GIF 1" style="width:100%;height:auto;border-radius:6px;">
-        <sub>GIF 1 caption (optional)</sub>
+      <!-- LEFT column 2 (GIF) -->
+      <td valign="top" align="center">
+        <img src="LidarPipeline.gif" alt="GIF 1" width="100%">
+        <div><sub>GIF 1 caption (optional)</sub></div>
       </td>
 
-      <td style="text-align:center;vertical-align:middle;">
-        <div style="font-size:32px;line-height:1;">&rarr;</div>
+      <td align="center" valign="middle">
+        <h2>&rarr;</h2>
       </td>
 
-      <!-- RIGHT column item 2 -->
-      <td style="vertical-align:top;">
-        <img src="LidarRawData.png" alt="Image 3" style="width:100%;height:auto;border-radius:6px;">
-        <sub>Image 3 caption (optional)</sub>
+      <!-- RIGHT column 2 (Image) -->
+      <td valign="top" align="center">
+        <img src="LidarRawData.png" alt="Image 3" width="100%">
+        <div><sub>Image 3 caption (optional)</sub></div>
       </td>
     </tr>
 
     <tr>
-      <!-- LEFT column item 3 (GIF) -->
-      <td style="vertical-align:top;">
-        <img src="EdgesPipeline.gif" alt="GIF 2" style="width:100%;height:auto;border-radius:6px;">
-        <sub>GIF 2 caption (optional)</sub>
+      <!-- LEFT column 3 (GIF) -->
+      <td valign="top" align="center">
+        <img src="EdgesPipeline.gif" alt="GIF 2" width="100%">
+        <div><sub>GIF 2 caption (optional)</sub></div>
       </td>
 
-      <td style="text-align:center;vertical-align:middle;">
-        <div style="font-size:32px;line-height:1;">&uarr;</div>
+      <td align="center" valign="middle">
+        <h2>&uarr;</h2>
       </td>
 
-      <!-- RIGHT column item 3 (leave empty or add something) -->
-      <td style="vertical-align:top;">
-        <!-- Optionally add an extra image here, or keep blank to keep total at 5 items -->
-        <!-- <img src="path/to/extra.png" alt="Extra" style="width:100%;height:auto;border-radius:6px;"> -->
+      <!-- RIGHT column 3 (empty) -->
+      <td valign="top" align="center">
+        <!-- Empty to keep total at 5 items -->
       </td>
     </tr>
   </table>
