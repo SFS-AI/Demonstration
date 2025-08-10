@@ -1,4 +1,3 @@
-<!-- Two columns with an arrows column between them. Works on GitHub. -->
 <div align="center">
   <table width="960" cellpadding="6" cellspacing="0">
     <tr>
@@ -29,11 +28,19 @@
         <div><sub>GIF 1 caption (optional)</sub></div>
       </td>
     </tr>
+    <!-- EXTRA ARROW ROW (from GIF 1 to GIF 2) -->
+    <tr>
+      <!-- Empty left + middle columns -->
+      <td></td>
+      <td></td>
+      <!-- Arrow in right column -->
+      <td align="center" valign="middle"><h2>&darr;</h2></td>
+    </tr>
     <tr>
       <!-- LEFT 3 (empty to keep total at 5 items) -->
-      <td width="430" valign="top" align="center"></td>
-      <!-- ARROW (up or right—your call) -->
-      <td width="100" align="center" valign="middle"><h2>&uarr;</h2></td>
+      <td></td>
+      <!-- Empty middle column -->
+      <td></td>
       <!-- RIGHT 3 -->
       <td width="430" valign="top" align="center">
         <img src="EdgesPipeline.gif" alt="GIF 2" width="100%">
