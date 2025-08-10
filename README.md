@@ -32,8 +32,6 @@
     <tr>
       <!-- LEFT 3 (empty to keep total at 5 items) -->
       <td width="430" valign="top" align="center"></td>
-      <!-- ARROW (up or right—your call) -->
-      <td width="100" align="center" valign="middle"><h2>&uarr;</h2></td>
       <!-- RIGHT 3 -->
       <td width="430" valign="top" align="center">
         <img src="EdgesPipeline.gif" alt="GIF 2" width="100%">
